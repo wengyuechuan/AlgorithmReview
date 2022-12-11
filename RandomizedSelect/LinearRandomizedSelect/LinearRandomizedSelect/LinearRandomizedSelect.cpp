@@ -92,7 +92,7 @@ int main(){
 
     while(index<100000)
     {
-        int num=rand() % RAND_MAX * (rand() % 100); //生成大随机数
+        int num=rand() % RAND_MAX * (rand() % 100); //生成大随 机数
         test.push_back(num);
         index++;
     }
